@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*  */
+body {
+    height: 100vh;
+    padding: 150px 0;
+}
+
+/* Separei o header em tres containes, centralizei os conteudos
+    e fixei o header no topo do site */
+header {
+    height: 120px;
+    width: 100%;
+    background-color: #c23949;
+    display: grid;
+    grid-template-columns: 180px 250px 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: beige;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/* Dei um tamnho fixo pra logo e separi um espaço para imagem
+   e o nome da mepresa, centralizei os intens e fixei a logo
+   inetira no finai do seu container */
+.logo {
+    height: 90px;
+    display: grid;
+    grid-template-rows: 70px 1fr;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* Falei para imagem da logo ocupar 100% do espaço que ela possui */
+.img-logo {
+    height: 100%;
+}
+
+/* Dei um tamanho pda fonte do nome da mepresa */
+div>h1 {
+    font-size: 22px;
+}
+
+/* Deixei o lema fixado no começo do containe dele */
+.lema {
+    text-align: start;
+    font-size: 15px;
+}
+
+/* Terei o sublinhados, aumentei o tamanho do botão e arredodei as bordas */
+.menu {
+    text-decoration: none;
+    color: beige;
+    padding: 6px 10px;
+    border-radius: 20px;
+}
+
+/* Quando o mause estiver em cima de augun item do menu a cor do fundo e da letra
+   vai mudar e vai aprarecei um pouco de sombra  */
+.menu:hover {
+    background-color: beige;
+    color: #c23949;
+    box-shadow: 2px 2px 2px whitesmoke;
+}
+
+
+
+
