@@ -1,13 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&family=Poppins:wght@200&family=Rubik:wght@300&family=Ubuntu&display=swap');
 * {
+    font-family: "Poppins" , sans-serif;
     padding: 0;
     margin: 0;
 }
 
-/*  */
-body {
-    height: 100vh;
-    padding: 150px 0;
-}
 
 /* Separei o header em tres containes, centralizei os conteudos
     e fixei o header no topo do site */
@@ -50,7 +47,7 @@ div>h1 {
 /* Deixei o lema fixado no começo do containe dele */
 .lema {
     text-align: start;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 /* Terei o sublinhados, aumentei o tamanho do botão e arredodei as bordas */
@@ -68,7 +65,59 @@ div>h1 {
     color: #c23949;
     box-shadow: 2px 2px 2px whitesmoke;
 }
+/* _____________________________________________________________________________________________________ */
 
 
+body{
+    background-color: #f7abb4
+}
 
 
+.titulo-container{
+    color: #c23949 ;
+    font-size: 5rem;
+    margin: .3em;
+    text-align:justify;
+
+}
+
+.texto-apresentacao {
+    height: 70%;
+    width: 50%;
+    font-size: 1.6em;
+    margin: 8% 3% ;
+    justify-content: center;
+    align-items: center;
+    text-align: justify; 
+
+}
+
+.imagens {
+    height: 90%;
+    margin-left: 3%;
+    margin-top: 10%;
+    height: 100%;
+}
+
+.mapa {
+    height: 90%;
+    margin: 2em 4em
+}
+
+.apresentacao {
+    display: flex;
+    height: 100vh;
+    background-color: #fdc0c7;
+}
+
+.area-atendimento {
+    margin-top: 15em;
+    display: flex;
+    height: 80vh;
+    width: 100vw;
+}
+
+.lista-estados{
+    color: rgb(0, 0, 0);
+    font-size: 2.1em;
+}
