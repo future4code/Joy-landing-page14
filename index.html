@@ -20,46 +20,106 @@
             <a href="#apresentacao" class="menu">
                 QUEM SOMOS
             </a>
-            <a href="#area-atendimento" class="menu">
+            <a href="#link" class="menu">
                 ONDE ATENDEMOS
             </a>
-            <a href="" class="menu">
-                NOSSO TIME
+            <a href="#infra-estrutura" class="menu">
+                INFRA-ESTRUTURA
             </a>
-            <a href="" class="menu">
-                PERGUNTAS (FAQ)
-            </a>
-            <a href="" class="menu">
-                DEPOIMENTOS
+            <a href="#cadastro" class="menu">
+                CADASTRO
             </a>
         </div>
     </header>
     <main>
         <div id="apresentacao" class="apresentacao">
             <div class="texto-apresentacao">
-                    <h1 class="titulo-container">Quem Somos</h1>
-                    <p>A <b>LOG4</b> é uma empresa de uma grande varejista que, após liderar o mercado de móveis, cama, mesa e banho, resolveu entrar no mercado puro de logística para além de fabricar e vender, agora também entregar para várias localidades do estado. Se tratando de logistica,  para uma distribuição rápida de itens pequenos, entregamos via motoboys/ciclistas e via caminhão para distribuição rápida de móveis ou itens de grande porte. 
-                    Já sabendo o quão importante é o cuidado no manuseio do produto e tendo os meios certos para entregar cada tipo deles, a gente consegue trazer a qualidade que já tinhamos no mercado de moveis para  a nossa logística, trazendo como resultado, a satisfação do cliente em receber um produto em ótimo estado, com uma entrega rápida e excelente atendimento.
+                <h1 class="titulo-container">Quem Somos</h1>
+                <p>A <b>LOG4</b> é uma empresa de uma grande varejista que, após liderar o mercado de móveis, cama, mesa e banho, resolveu entrar no mercado puro de logística para além de fabricar e vender, agora também entregar para várias localidades do estado. Se tratando de logistica,  para uma distribuição rápida de itens pequenos, entregamos via motoboys/ciclistas e via caminhão para distribuição rápida de móveis ou itens de grande porte. 
+                Já sabendo o quão importante é o cuidado no manuseio do produto e tendo os meios certos para entregar cada tipo deles, a gente consegue trazer a qualidade que já tinhamos no mercado de moveis para  a nossa logística, trazendo como resultado, a satisfação do cliente em receber um produto em ótimo estado, com uma entrega rápida e excelente atendimento.
             </div>
             <div class="imagens">
                 <img src="img/funcionario.png" alt="funcionariocaminhao da  4log">
-    </main>
-    <div class="area-atendimento">
-        <img  class="mapa" src="img/mapa.png">
-        <div class="texto-atendimento">
-            <h1 id="area-atendimento" class="titulo-container">LOG4 pelo Brasil</h1>
-            <h2 class="texto-atendimento">Atualmente estamos em uma rapida expansão. <br>Partimos do absoluto zero em logistica e hoje já atendemos todas os estados da região sul e sudeste do brasil.</h2><br>
-                <list class="lista-estados">
-                    <ul>- Minas Gerais</ul>
-                    <ul>- São Paulo</ul>
-                    <ul>- Espirito Santo</ul>
-                    <ul>- Rio de Janeiro</ul>
-                    <ul>- Paraná</ul>
-                    <ul>- Santa catarina</ul>
-                    <ul>- Rio Grande do Sul</ul>
-                </list>
-
+            </div>
         </div>
-    </div>
+        <p id="link"></p>
+        <div class="area-atendimento" id="atendimento">
+            <img id="area-atendimento"  class="mapa" src="img/mapa.png">
+            <div class="texto-atendimento">
+                <h1 class="titulo-container">LOG4 pelo Brasil</h1>
+                <h2 class="texto-atendimento">Atualmente estamos em uma rapida expansão. Partimos do absoluto zero em logistica e hoje já atendemos todas os estados da região sul e sudeste do brasil.</h2><br>
+                    <list class="lista-estados">
+                        <ul>- Minas Gerais</ul>
+                        <ul>- São Paulo</ul>
+                        <ul>- Espirito Santo</ul>
+                        <ul>- Rio de Janeiro</ul>
+                        <ul>- Paraná</ul>
+                        <ul>- Santa catarina</ul>
+                        <ul>- Rio Grande do Sul</ul>
+                    </list>
+            </div>
+        </div>
+        <div id="infra-estrutura">
+            <img class="img-caminhao" src="img/caminhao.png" alt="">
+            <div>
+                <h1 class="titula-infra"> Infra-Estrutura Log4 </h1>
+                <p class="texto-infra">
+                    A Log4 é uma das poucas empresas no país que se preocupa com segurança e localização estratégicas 
+                    de seus terminais, atualização constante de seus colaboradores e renovação contínua de seus equipamentos. 
+                    Com uma composição de mais de 120 equipamentos próprios, a Log4 vem em constante ampliação e atualização 
+                    de sua frota, objetivando os melhores níveis de eficiência e atendimentos, junto à seus clientes.
+                </p>
+            </div>
+        </div>
+        <div class="container-cadastro" id="cadastro">
+            <h1 class="titulo-cadastro"> Entregue com uma das maiores do Brasil!</h1>
+            <div class="imagem-e-formulario">
+                <div class="imagem1">
+                    <img class="logomarca" src="img/logo transparente.png">
+                </div>
+                <div class="formulario"> 
+                    <fieldset class="fieldset">
+                        <div class="nome">
+                            <label>Nome</label>
+                            <input type="text" nome="nome">
+                        </div>
+                        <div class="Cidade">
+                            <label>Cidade</label>
+                            <input type="text" nome="Cidade">
+                        </div>
+                        <div class="Estado">
+                            <label>Estado</label>
+                            <input type="text" nome="Estado">
+                        </div>
+                        <div class="telefone">
+                            <label>Telefone</label>
+                            <input type="text" nome="Estado">
+                        </div>
+                        <div class="email">
+                            <label>E-mail</label>
+                            <input type="email" nome="Email">
+                            <br><br>
+                        <fieldset style="padding: 20px 0;"><P>Enviar E-mails de promoções:</P>
+                        <label><input type="radio" nome="sim"> Sim</label>
+                        <label><input type="radio" nome="nao"> Nao</label></fieldset>
+                        </div><br><br>
+                        <button class="btn" type="submit">Enviar</button>
+                    </fieldset>
+                    <h2>Preencha e aguarde o nosso contato! 
+                </div>    
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <h3 style="text-align:center;">Nossas redes sociais:</h3><br>
+            <a href="www.facebook.com" target="blank"><img class="icone-redes" src="img/facebook.png" alt=""></a>
+            <a href="www.yahoo.com" target="blank"><img class="icone-redes" src="img/yahoo.png" alt=""></a>
+            <a href="www.instagram.com" target="blank"><img class="icone-redes" src="img/instagram.png" alt=""></a>
+            <a href="www.whatsapp.com" target="blank"><img class="icone-redes"src="img/whatsapp.png" alt=""></a>
+            <a href="www.twitter.com" target="blank"><img class="icone-redes"src="img/twitter.png" alt=""></a>
+            <a href="www.youtube.com"  target="blank"><img class="icone-redes"src="img/youtube.png" alt=""></a>
+        </div>
+    </footer>
 </body>
 </html>
