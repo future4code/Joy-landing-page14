@@ -154,7 +154,6 @@ footer {
     align-items: center; 
     text-justify: center;
     background-color: #fdc0c7;
-
 }
 
 .img-caminhao {
@@ -232,3 +231,8 @@ input{
     color:  aliceblue;
     cursor: pointer;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
