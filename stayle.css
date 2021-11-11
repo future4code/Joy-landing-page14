@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&family=Poppins:wght@200&family=Rubik:wght@300&family=Ubuntu&display=swap');
+* {
+    font-family: "Poppins" , sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* Separei o header em tres containes, centralizei os conteudos
+    e fixei o header no topo do site */
+header {
+    height: 115px;
+    width: 100%;
+    background-color: #c23949;
+    display: grid;
+    grid-template-columns: 180px 250px 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: beige;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/* Dei um tamnho fixo pra logo e separi um espaço para imagem
+   e o nome da mepresa, centralizei os intens e fixei a logo
+   inetira no finai do seu container */
+.logo {
+    height: 90px;
+    display: grid;
+    grid-template-rows: 70px 1fr;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* Falei para imagem da logo ocupar 100% do espaço que ela possui */
+.img-logo {
+    height: 100%;
+}
+
+/* Dei um tamanho pda fonte do nome da mepresa */
+header>div>h1 {
+    font-size: 1.2em;
+}
+
+/* Deixei o lema fixado no começo do containe dele */
+.lema {
+    text-align: start;
+    font-size: 1.1em;
+}
+
+/* Terei o sublinhados, aumentei o tamanho do botão e arredodei as bordas */
+.menu {
+    text-decoration: none;
+    color: beige;
+    padding: 6px 10px;
+    border-radius: 20px;
+}
+
+/* Quando o mause estiver em cima de augun item do menu a cor do fundo e da letra
+   vai mudar e vai aprarecei um pouco de sombra  */
+.menu:hover {
+    background-color: beige;
+    color: #c23949;
+    box-shadow: 2px 2px 2px whitesmoke;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: all .2s
+}
+/* _____________________________________________________________________________________________________ */
+
+
+/* body{
+    background-color: #f7abb4
+} */
+
+
+.titulo-container{
+    color: #c23949 ;
+    font-size: 5rem;
+    margin: .3em;
+    text-align:start;
+
+}
+
+.texto-apresentacao {
+    height: 70%;
+    width: 60%;
+    font-size: 1.6em;
+    margin: 8% 3% ;
+    justify-content: center;
+    align-items: center;
+    text-align: justify; 
+}
+
+.imagens {
+    height: 90%;
+    margin-left: 3%;
+    margin-top: 10%;
+    height: 100%;
+}
+
+.mapa {
+    height: 70%;
+    width: 70%;
+    margin: 4em;
+    
+}
+
+.apresentacao {
+    display: flex;
+    height: 100%;
+    background-color: #fdc0c7;
+    width: 100%;
+}
+
+.area-atendimento {
+    height: 90vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5em 0
+}
+
+.lista-estados{
+    color: rgb(0, 0, 0);
+    font-size: 2.1em;
+}
+
+.texto-atendimento {
+    max-width: 86%;
+}
+
+footer {
+    height: 7em;
+    display: flex;
+    background-color: #c23949;
+    color:rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+}
+
+.icone-redes {
+    width: 2.5em;
+    padding-left: 1.5em;
+}
+
+#infra-estrutura {
+    height: 100VH;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-justify: center;
+    background-color: #fdc0c7;
+}
+
+.img-caminhao {
+    height: 80%;
+    width: 80%;
+}
+
+.titula-infra {
+    color: #c23949 ;
+    font-size: 5rem;
+    margin: .3em;
+    text-align:start;
+}
+
+.texto-infra {
+    font-size: 1.6em;
+    margin: 3% ;
+    justify-content: center;
+    align-items: center;
+    text-align: justify; 
+}
+
+.container-cadastro{
+    background: #ffffff;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    align-content: center;
+}
+
+.titulo-cadastro{
+    color: #85242f ;
+    font-size: 4rem;
+    margin: .3em;
+}
+
+.logomarca{
+    height:70%;
+    margin-top: 10%;
+}
+
+.fieldset{
+    width: 100%;
+    margin: 10px;
+    padding: 10px 30px;
+}
+
+.imagem-e-formulario{
+    display: flex;
+}
+.imagem1{
+    width:40%;
+}
+
+.formulario{
+    width:40%;
+}
+
+input{
+    width:20em;
+    margin: .5em;
+}
+
+.btn{
+    padding: 10px 30px;
+    font-size: 1em ;
+    border-radius: 10px;
+    background-color:#9b4c4c;
+    color:aliceblue;
+    margin-bottom: 1em;
+}
+.btn:hover{
+    background-color:   #6d1e1e;
+    color:  aliceblue;
+    cursor: pointer;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
